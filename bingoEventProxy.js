@@ -16,7 +16,7 @@ eventProxy.prototype.todo = function(){
 eventProxy.prototype.destory = function(){
     this.evs = {};
     this.finalargs = [];
-	delete this.finalCallBack;
+    delete this.finalCallBack;
 }
 eventProxy.prototype.trigger = function(eventname,data){
     var self = this;
@@ -26,7 +26,7 @@ eventProxy.prototype.trigger = function(eventname,data){
     for(var p in this.evs){
         if(!this.evs[p].triggered){
             alldone = false;
-			break;
+            break;
         }
     }
    alldone && this.finalCallBack.apply(null,finalargs);
