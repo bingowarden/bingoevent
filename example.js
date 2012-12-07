@@ -3,7 +3,7 @@ var eventProxy = require('bingoEvent');
 var ep = new eventProxy();
 
 function finalCallBack(v1data,v2data,v3data){
-	console.log(v1data,v2data,v3data);
+	console.log(v1data,v2data,v3data);//{v1data:'v1data'}v2data['v3data']
 }
 
 ep.todo('v1','v2','v3',finalCallBack);
