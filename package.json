@@ -1,5 +1,5 @@
 {
-  "name": "bingoEvent",
+  "name": "bingoevent",
   "version": "1.0.0",
   "description": "eventProxy",
   "main": "bingoEventProxy.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "bingoevent"
+    "url": "https://github.com/bingowarden/bingoevent.git"
   },
   "keywords": [
     "eventproxy"
