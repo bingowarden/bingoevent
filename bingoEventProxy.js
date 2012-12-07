@@ -2,6 +2,7 @@ function eventProxy(){
     this.evs = {};
     this.finalargs = [];
 }
+
 eventProxy.prototype.todo = function(){
     var args = [].slice.call(arguments);
     this.finalCallBack = args[args.length-1];
